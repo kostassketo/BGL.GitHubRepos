@@ -6,11 +6,11 @@ using Newtonsoft.Json;
 
 namespace BGL.GitHubRepos.Business
 {
-    public class GplHttpClient : IHttpClient
+    public class BglHttpClient : IHttpClient
     {
         public Dictionary<string, string> HttpHeaders { get; set; }
 
-        public GplHttpClient()
+        public BglHttpClient()
         {
             HttpHeaders = new Dictionary<string, string>();
         }

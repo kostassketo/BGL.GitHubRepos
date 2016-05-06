@@ -15,7 +15,7 @@ namespace BGL.GitHubRepos.IoC.Installers
                 return;
             }
 
-            container.Register(Component.For<IHttpClient>().ImplementedBy<GplHttpClient>());
+            container.Register(Component.For<IHttpClient>().ImplementedBy<BglHttpClient>());
         }
     }
 }
