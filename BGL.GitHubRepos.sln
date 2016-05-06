@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BGL.GitHubRepos.Website", "src\BGL.GitHubRepos.Website\BGL.GitHubRepos.Website.csproj", "{B9889649-FBE4-45C6-9485-7E580B942CE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BGL.GitHubRepos.Domain", "src\BGL.GitHubRepos.Domain\BGL.GitHubRepos.Domain.csproj", "{0856C74E-69C0-46A2-9672-8F4406C2793F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BGL.GitHubRepos.Business", "src\BGL.GitHubRepos.Business\BGL.GitHubRepos.Business.csproj", "{D88F3BD3-2387-4DFB-8D24-73C92F0C973A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BGL.GitHubRepos.IoC", "src\BGL.GitHubRepos.IoC\BGL.GitHubRepos.IoC.csproj", "{CD49BEA6-43DA-497C-9FC7-E13286EBB5C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BGL.GitHubRepos.Abstractions", "src\BGL.GitHubRepos.Abstractions\BGL.GitHubRepos.Abstractions.csproj", "{A7370792-E08D-4217-8C82-963439C7E75F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9889649-FBE4-45C6-9485-7E580B942CE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9889649-FBE4-45C6-9485-7E580B942CE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9889649-FBE4-45C6-9485-7E580B942CE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9889649-FBE4-45C6-9485-7E580B942CE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0856C74E-69C0-46A2-9672-8F4406C2793F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0856C74E-69C0-46A2-9672-8F4406C2793F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0856C74E-69C0-46A2-9672-8F4406C2793F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0856C74E-69C0-46A2-9672-8F4406C2793F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D88F3BD3-2387-4DFB-8D24-73C92F0C973A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D88F3BD3-2387-4DFB-8D24-73C92F0C973A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D88F3BD3-2387-4DFB-8D24-73C92F0C973A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D88F3BD3-2387-4DFB-8D24-73C92F0C973A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD49BEA6-43DA-497C-9FC7-E13286EBB5C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD49BEA6-43DA-497C-9FC7-E13286EBB5C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD49BEA6-43DA-497C-9FC7-E13286EBB5C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD49BEA6-43DA-497C-9FC7-E13286EBB5C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7370792-E08D-4217-8C82-963439C7E75F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7370792-E08D-4217-8C82-963439C7E75F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7370792-E08D-4217-8C82-963439C7E75F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7370792-E08D-4217-8C82-963439C7E75F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

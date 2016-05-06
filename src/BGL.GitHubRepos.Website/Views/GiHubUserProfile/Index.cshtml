@@ -1,0 +1,43 @@
+﻿@{
+    ViewBag.Title = "Bgl Test";
+}
+
+<div>
+    <br/>
+    <form role="form">
+        <div class="form-group">
+            <input type="text" class="form-control" placeholder="enter username">
+        </div>
+        <button id="search" type="submit" class="btn btn-success" data-bind="click: retrieveProfile">Search</button>
+    </form>
+    <br/>
+    <div data-bind="visible: HasResults">
+        <div class="media">
+            <div class="media-left media-middle">
+                <a href="#">
+                    <img class="img-thumbnail" width="100" height="100" data-bind="attr: { src: avatar_url }"/>
+                </a>
+            </div>
+            <br/>
+            <div class="media-body">
+                <h3 class="media-heading" data-bind="text:Login "></h3>
+                <h4 data-bind="text:Location "></h4>
+            </div>
+        </div>
+        <br/>
+        <ul class="list-group" data-bind="foreach: Repositories">
+            <li class="list-group-item">
+                <span class="badge"  data-bind="text: stargazers_count"></span>
+                <a data-bind="text : Name, attr: { href: html_url }"></a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+@section scripts
+{
+    <script src="~/Scripts/Repositories/UserVM.js"></script>
+    <script>
+        ko.applyBindings(new UserProfileVM());
+    </script>
+}
